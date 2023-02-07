@@ -1,0 +1,41 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 30px;
+    padding: 10px;
+}
+
+.img_head {
+    width: 35px;
+    height: 40px;
+}
+
+.img_head2 {
+    width: 88px;
+    height: 30px;
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.menu_nav {
+    width: 533px;
+    height: 17px;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 14px;
+    line-height: 16px;
+    color: #F25822;
+}
+
+.wrapper {
+    width: 1920px;
+    height: 700px;
+    background: #FFFFFF;
+}
+
+
+
+    
