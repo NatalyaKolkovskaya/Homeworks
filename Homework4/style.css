@@ -10,17 +10,15 @@ a {
 body {
     background: #FFFFFF;
     font-family: 'Gilroy';
-}
-.main {   
     margin-left: 375px;
     margin-right: 375px;
 }
 
 .header {
-    margin-top: 40px;
-    margin-bottom: 96px;
+    margin-top: 45px;
+    margin-bottom: 89px;
     display:flex;
-    gap: 40px;
+    gap: 20px;
     justify-content: space-between;
 }
 
@@ -28,11 +26,12 @@ body {
     font-size: 14px;
     line-height: 16px;
     display: flex;
-    justify-content: space-between;
-    gap: 35px;
+    justify-content:space-between;
+    gap: 20px;
 }
 
 .home {
+    padding-left: 300px;
     color: #F25822;
 }
 
@@ -42,6 +41,7 @@ a {
 }
 
 .main_content {
+    margin-right: 375px;
     margin-top: 84px;
     display: flex;
     justify-items: flex-start;
@@ -55,30 +55,31 @@ a {
 
 .buttons {
     margin-top: 37px;
-    display: flex;
-    justify-content: flex-start;
-    gap: 72px;
+    display: flex; 
+    justify-content:center; 
+    gap: 72px; 
 }
-
 .button_start {
-    color: #F25822;
-    padding: 15px, 35px;
+    width: 140px;
+    height: 50px;
+    color:#FFFFFF;
+    background: #F25822;
     box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
     border-radius: 50px;
-    text-align: center;
-    padding: 15px 35px;
-    font-size: 15px;
-    line-height: 18px;
-    color: #FFFFFF;
-    border: 0;
-    font-weight: 700;
+}
+
+.button_end {
+    margin-right: 258px;
+    width: 90px;
+    height: 19px;
+    color: #AAAAAA;
 }
 
 .logo {
     margin-bottom: 96px;
     margin-top: 259px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 48px;
 }
 
