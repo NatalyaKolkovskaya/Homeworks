@@ -2,18 +2,30 @@ a {
     text-decoration: none;
 }
 
-body {
-    
-}
-
 .header {
     background-color: #FFFFFF;
     margin-left: 404px;
     margin-right: 401px;
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
 }
 
 .main {
     background-color: #FAFAFA;
     margin-left: 368px;
     margin-right: 353px;
+}
+
+.blocks {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+}
+
+.Orange_butt {
+    width: 150px;
+    height: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    color: #FAFAFA;
 }
