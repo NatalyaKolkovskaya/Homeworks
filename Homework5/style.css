@@ -8,6 +8,35 @@ a {
     margin-right: 401px;
     display: grid;
     grid-template-columns: 370px 370px 370px;
+    display: flex;
+    justify-content: space-between;
+    gap: 59px;
+}
+
+.image-stack {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+}
+
+.head_par {
+    font-size: 15px;
+    line-height: 22px;
+    color: #666666;
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+    text-align: center;
+}
+
+.p_center {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
 }
 
 .main {
@@ -19,6 +48,23 @@ a {
 .blocks {
     display: grid;
     grid-template-columns: 370px 370px 370px;
+    display: flex;	
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.h2 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-align: center;
+}
+
+.par {
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #AAAAAA;
 }
 
 .Orange_butt {
@@ -28,4 +74,5 @@ a {
     box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
     border-radius: 50px;
     color: #FAFAFA;
+    text-align: center;
 }
