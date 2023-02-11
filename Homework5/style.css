@@ -13,10 +13,34 @@ a {
     gap: 59px;
 }
 
-.image-stack {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    position: relative;
+.image1 {
+    background-image:url(/Homework5/img/Fon1.png);
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    display: flex;
+    justify-content:center;
+    padding-top: 23px;
+}
+
+.image2 {
+    background-image:url(/Homework5/img/Fon2.png);
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    display: flex;
+    justify-content:center;
+    padding-top: 23px;
+}
+
+.image3 {
+    background-image:url(/Homework5/img/Fon3.png);
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    display: flex;
+    justify-content:center;
+    padding-top: 23px;
 }
 
 .head_par {
