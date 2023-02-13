@@ -14,3 +14,64 @@
   a {
     text-decoration: none;
   }
+
+  .header {
+    min-height: 75px;
+    background: #222222;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .head_left {
+    display: flex;
+    align-items: center;
+    gap: 41px;
+  }
+  
+  .head_right {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+  }
+
+  .main {
+    display: flex;
+    background: #F1E4E6;
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+  }
+  
+  .main_photo {
+    width: 50%;
+  }
+  
+  .brand {
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+    margin-top: 48%;
+  }
+  
+  .brand1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+  }
+  
+  .brand2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+  }
+  
+  .title {
+    padding-left: 64px;
+  }
+  
+  
