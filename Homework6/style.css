@@ -195,4 +195,23 @@
     color: #F16D7F;
   }
   
-  
+  .button {
+    position: absolute;
+    left: 690px;
+    right: 690px;
+    top: 2817px;
+    bottom: 60px;
+    border: 1px solid #FF6A6A;
+  }
+
+  .button_1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    text-align: center;
+    margin-top: 6px;
+   
+  }
