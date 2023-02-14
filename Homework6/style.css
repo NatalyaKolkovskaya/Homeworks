@@ -196,7 +196,8 @@
   }
   
   .button {
-    position: absolute;
+    display: flex;
+    justify-content: center;
     left: 690px;
     right: 690px;
     top: 2817px;
