@@ -265,4 +265,9 @@
       line-height: 19px;
       color: #222222;
     }
+    
+    .catalog_items {
+      display: flex;
+      flex-direction: column;
+    }
   }
