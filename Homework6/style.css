@@ -20,8 +20,8 @@
     background: #222222;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around; 
+    gap: 424px;
     align-items: center;
   }
 
@@ -35,6 +35,10 @@
     display: flex;
     align-items: center;
     gap: 33px;
+  }
+
+  .mobile {
+    color: #FFFFFF;
   }
 
   .main {
@@ -70,6 +74,9 @@
     color: #222222;
   }
   
+  .pink {
+    color: #F16D7F;
+  }
   .title {
     padding-left: 64px;
   }
@@ -92,6 +99,7 @@
     height: 100%;
     top: 0;
     left: 0;
+    background: rgba(33, 22, 22, 0.7);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -215,4 +223,46 @@
     text-align: center;
     margin-top: 6px;
    
+  }
+
+  @media screen and (min-width: 319px) and (max-width: 767px) {
+    .mobile {
+      display: none;
+    }
+    
+    .header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; 
+      gap: 40px;
+      align-items: center;
+      height: 20%;
+    }
+
+    .main_photo {
+      display: none;
+    }
+
+      .brand {
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    }
+
+    .brand1 {
+      font-style: normal;
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 29px;
+      color: #222222;
+    }
+    
+    .brand2 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      color: #222222;
+    }
   }
