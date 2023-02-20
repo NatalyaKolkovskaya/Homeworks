@@ -44,8 +44,6 @@
   .main {
     display: flex;
     background: #F1E4E6;
-    padding-left: calc(50% - 800px);
-    padding-right: calc(50% - 800px);
   }
   
   .main_photo {
@@ -56,6 +54,10 @@
     border-left: 12px solid #F16D7F;
     padding-left: 16px;
     margin-top: 48%;
+    display: flex;
+    justify-content: center; 
+    align-items:flex-start; 
+    flex-direction: column;
   }
   
   .brand1 {
@@ -161,8 +163,6 @@
     grid-template-columns: repeat(auto-fit, 360px);
     justify-content: center;
     gap: 30px;
-    margin-left: 200px;
-    margin-right: 200px;
   }
   
   .good {
@@ -208,23 +208,23 @@
   }
   
   .button {
-    width: 212px;
-    height: 48px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    border: 1px solid #F16D7F;
-    margin: 0 auto;
-    margin-bottom: 95px;
+    margin-bottom:96px
   }
-
   .button_text {
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    color: #F16D7F;
-  } 
+    color: #F26376;
+    text-align: center;
+    margin-top: 6px;
+    border: 1px solid #FF6A6A;
+    padding: 14px 38px;
+    background-color: #fff;
+  }
 
   .privilege {
     background-color: #222222;
@@ -272,10 +272,47 @@
 
   .feedback_left {
     margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .face {
+    width: 250px;
+    
+  }
+
+  .face_write {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
   }
 
   .feedback_right {
     margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .hurt {
+    font-style: normal;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #222224;
+    padding-bottom: 32px;
+  }
+
+  .bold {
+    font-weight: bold;
   }
 
   .complex {
@@ -295,9 +332,12 @@
     align-items: center;
     color: #222224;
     opacity: 0.67;
+    padding: 7px 22px;
+    border-radius: 45px 0px 0px 45px;
   }
 
-  .subscribe {
+
+  .feed_butt {
     background: #E05C6E;
     font-style: normal;
     font-weight: 400;
@@ -307,7 +347,9 @@
     align-items: center;
     text-align: center;
     color: #FFFFFF;
-
+    padding: 7px 8px;
+    border-radius: 0px 45px 45px 0px;
+    
   }
 
   .footer {
@@ -332,6 +374,11 @@
     display: flex;
     align-items: center;
     gap: 20px;
+  }
+
+  .center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
   }
 
   @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -433,7 +480,7 @@
   }
 
   
-  .button {
+  /* .button {
     transition: all 1s;
   }
   
@@ -446,4 +493,4 @@
   .button:hover path {
     fill: white;
   }
-  
+   */
