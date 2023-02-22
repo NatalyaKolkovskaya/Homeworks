@@ -5,8 +5,7 @@
 
 const temCelsius = +prompt('Введите температуру в градусах Цельсия');
 const temFahrenheit = (9 / 5) * temCelsius + 32;
-alert('Температура по Цельсию: ${temCelsius}, температурв по Фаренгейту: ${temFahrenheit.toFixed(1)}');
-
+alert('Температура по Цельсию -  ${temCelsius}, температурв по Фаренгейту - ${temFahrenheit:toFixed(1)}');
 
 
 
@@ -14,4 +13,7 @@ alert('Температура по Цельсию: ${temCelsius}, темпера
 // Задание 2
 // Необходимо создать переменную name, записать в эту переменную свое имя. Необходимо также создать переменную admin и присвоить этой переменной значение из переменной name. Вывести значение переменной admin в консоль.
 
+const name = 'Natalya';
+const admin = name;
+console.log(admin);
 
