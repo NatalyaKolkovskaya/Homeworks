@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="content">
+<!-- <div class="JSON_file">
+    <h3 class="API"></h3>
+    <p class="Description"></p>
+    <a class="Link"></a>
+</div> -->
+</div>
+
+<script src="data.js"></script>
+<script>
+    const data = JSON.parse(dataInfo);
+    
+    data.forEach(element => {
+        const divEl = document.createElement(`div`);
+        divEl.classList.add(`JSON_file`);
+        document.querySelector(`.content`).appendChild(divEl);
+
+        const h3El = document.createElement(`h3`);
+        h3El.classList.add(`API`);
+        h3El.textContent = element.API;
+        divEl.appendChild(h3El);
+
+        const pEl = document.createElement(`p`);
+        pEl.classList.add(`Description`);
+        pEl.textContent = element.Description;
+        divEl.appendChild(pEl);
+
+        const aEl = document.createElement(`a`);
+        aEl.classList.add(`Link`);
+        aEl.textContent = `Cсылка`;
+        aEl.href = element.Link;
+        divEl.appendChild(aEl);
+
+    });
+</script>
+</body>
+</html>
