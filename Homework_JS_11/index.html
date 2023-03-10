@@ -108,7 +108,7 @@
     <h1>Fetured Items</h1>
     <p class="sale_text">Shop for items based on what we featured in this week</p>
     <div class="goods">
-        <div class="good">
+        <!-- <div class="good">
             <img class="good_img" src="/Homework6/img/1.jpg" alt="1">
             <div class="info_good">
             <h3 class="h3_good">ELLERY X M'O CAPSULE</h3>
@@ -233,7 +233,7 @@
                     fill="white" />
             </svg>
             Add to Cart</a>
-        </div>
+        </div> -->
     </div>
 </div>
 <div class="button">
@@ -286,5 +286,41 @@
         <img class="icon_hov" src="/Homework6/img/twiter.jpg" alt="twiter">
     </div>
 </div>
+<script src="data.js"></script>
+<script>
+    const data = JSON.parse(dataProducts);
+    console.log(data);
+
+    data.forEach((element) => {
+      const goodEl = document.createElement("good");
+      goodEl.classList.add("good");
+      document.querySelector(".goods").appendChild(goodEl);
+
+      const imgEl = document.createElement("img");
+      imgEl.classList.add("good_img");
+      imgEl.src = element.img;
+      goodEl.appendChild(imgEl);
+
+      const divElTotal = document.createElement("div");
+      divElTotal.classList.add("info_good");
+      goodEl.appendChild(divElTotal);
+
+      const h3El = document.createElement("h3");
+      h3El.classList.add("h3_good");
+      divElTotal.appendChild(h3El);
+      h3El.textContent = element.nameProduct;
+
+      const divEldescript = document.createElement("p");
+      divEldescript.classList.add("p_good");
+      divElTotal.appendChild(divEldescript);
+      divEldescript.textContent = element.description;
+
+      const divElprice = document.createElement("price");
+      divElprice.classList.add("price");
+      divElTotal.appendChild(divElprice);
+      divElprice.textContent = element.price;
+
+    });
+  </script>
 </body>
 </html>
